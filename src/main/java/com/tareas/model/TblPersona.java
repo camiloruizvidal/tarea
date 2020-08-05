@@ -50,10 +50,6 @@ public class TblPersona {
 		this.telefono = telefono;
 		this.direccion = direccion;
 	}
-	public TblPersona(long id, String nombre_primero) {
-		this.nombre_primero = nombre_primero;
-		this.id=id;
-	}
 	public long getId() {
 		return id;
 	}

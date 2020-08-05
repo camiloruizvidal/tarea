@@ -12,12 +12,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.tareas.exception.ResourceNotFoundException;
 import com.tareas.model.TblPersona;
 import com.tareas.repository.TblPersonaRepository;
 
-import lombok.extern.java.Log;
 
 @RestController
 public class TblPersonaController {
