@@ -12,9 +12,12 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "tbl_tareas")
 public class TblTareas {
+	
 	@Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	@Column(nullable = false, unique = true, name = "id")
 	private Long id;
+	
 	@Column(name = "id_persona")
 	private Integer id_persona;
 	
